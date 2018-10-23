@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/vegasbrianc/autobuilds.svg?branch=dev)](https://travis-ci.org/vegasbrianc/autobuilds)
-
 # Experts Live Demo
 
 This is a demo for the ExpertsLive EU Conference 24 - 26 October in Prague, Czech Republic.
@@ -18,7 +16,7 @@ Build it:
 `docker build -t linux_tweet_app .`
 
 Run it:
-`docker container run --detach -p 80:80 linux_tweet_app`
+`docker container run --detach -p 80:80 experts-live-eu`
 
 # autobuilds
 This Repo is autobuild using an AWS IoT Button.
